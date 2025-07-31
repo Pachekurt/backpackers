@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solstice Hostel - Copacabana, Bolivia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-en="Home" data-es="Inicio">Home</a>
+                <a href="#about" class="nav-link" data-en="About" data-es="Acerca de">About</a>
+                <a href="#accommodations" class="nav-link" data-en="Accommodations" data-es="Alojamiento">Accommodations</a>
+                <a href="#amenities" class="nav-link" data-en="Amenities" data-es="Servicios">Amenities</a>
+                <a href="#breakfast" class="nav-link" data-en="Breakfast" data-es="Desayuno">Breakfast</a>
+                <a href="#attractions" class="nav-link" data-en="Local Attractions" data-es="Atracciones Locales">Local Attractions</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-es="Contacto">Contact</a>
+                <div class="language-switcher">
+                    <button class="lang-btn" data-lang="en" title="English">
+                        <span class="flag">🇺🇸</span>
+                        <span class="lang-text">EN</span>
+                    </button>
+                    <button class="lang-btn" data-lang="es" title="Español">
+                        <span class="flag">🇪🇸</span>
+                        <span class="lang-text">ES</span>
+                    </button>
+                </div>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="images/Mesa de trabajo 2LOGO.png" alt="Solstice Hostel Logo">
+            </div>
+            <h1 data-en="Welcome to Solstice Hostel" data-es="Bienvenidos a Solstice Hostel">Welcome to Solstice Hostel</h1>
+            <p data-en="Your sunny home in beautiful Copacabana, Bolivia" data-es="Tu hogar soleado en la hermosa Copacabana, Bolivia">Your sunny home in beautiful Copacabana, Bolivia</p>
+            <a href="#accommodations" class="cta-button" data-en="Book Your Stay" data-es="Reserva tu Estadía">Book Your Stay</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="About Solstice Hostel" data-es="Acerca de Solstice Hostel">About Solstice Hostel</h2>
+                <p data-en="Experience the warmth of Bolivian hospitality in the heart of Copacabana" data-es="Experimenta la calidez de la hospitalidad boliviana en el corazón de Copacabana">Experience the warmth of Bolivian hospitality in the heart of Copacabana</p>
+            </div>
+            <div class="about-content">
+                <div class="about-left">
+                    <!-- Auto-rotating Image Gallery -->
+                    <div class="auto-gallery">
+                        <div class="gallery-container">
+                            <img src="images/First Photo.jpg" alt="Solstice Hostel Interior" class="gallery-slide active">
+                            <img src="images/_DSC7943.jpg" alt="Hostel Common Area" class="gallery-slide">
+                            <img src="images/_DSC7961.jpg" alt="Hostel Room" class="gallery-slide">
+                            <img src="images/20240523_122632.jpg" alt="Hostel Facilities" class="gallery-slide">
+                            <img src="images/Entrance Grand.jpg" alt="Hostel Entrance" class="gallery-slide">
+                            <div class="gallery-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                                <span class="dot" data-slide="3"></span>
+                                <span class="dot" data-slide="4"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- About Text -->
+                    <div class="about-text">
+                        <p data-en="Located in the vibrant town of Copacabana on the shores of Lake Titicaca, Solstice Hostel offers comfortable accommodations with a friendly atmosphere. Our hostel combines modern amenities with traditional Bolivian warmth, making it the perfect base for exploring this magical region." data-es="Ubicado en el vibrante pueblo de Copacabana a orillas del Lago Titicaca, Solstice Hostel ofrece alojamiento cómodo con un ambiente amigable. Nuestro hostal combina comodidades modernas con la calidez tradicional boliviana, siendo la base perfecta para explorar esta región mágica.">Located in the vibrant town of Copacabana on the shores of Lake Titicaca, Solstice Hostel offers comfortable accommodations with a friendly atmosphere. Our hostel combines modern amenities with traditional Bolivian warmth, making it the perfect base for exploring this magical region.</p>
+                        <p data-en="Whether you're here to visit the famous Isla del Sol, explore local markets, or simply relax by the lake, we provide everything you need for an unforgettable stay." data-es="Ya sea que vengas a visitar la famosa Isla del Sol, explorar mercados locales, o simplemente relajarte junto al lago, proporcionamos todo lo que necesitas para una estadía inolvidable.">Whether you're here to visit the famous Isla del Sol, explore local markets, or simply relax by the lake, we provide everything you need for an unforgettable stay.</p>
+                    </div>
+                </div>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-sun"></i>
+                        <h3 data-en="Sunny Location" data-es="Ubicación Soleada">Sunny Location</h3>
+                        <p data-en="Perfect spot to enjoy Bolivia's beautiful weather" data-es="Lugar perfecto para disfrutar del hermoso clima de Bolivia">Perfect spot to enjoy Bolivia's beautiful weather</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-users"></i>
+                        <h3 data-en="Social Atmosphere" data-es="Ambiente Social">Social Atmosphere</h3>
+                        <p data-en="Meet fellow travelers from around the world" data-es="Conoce viajeros de todo el mundo">Meet fellow travelers from around the world</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-utensils"></i>
+                        <h3 data-en="Breakfast Included" data-es="Desayuno Incluido">Breakfast Included</h3>
+                        <p data-en="Start your day with our delicious breakfast" data-es="Comienza tu día con nuestro delicioso desayuno">Start your day with our delicious breakfast</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-paw"></i>
+                        <h3 data-en="Pet Friendly" data-es="Admite Mascotas">Pet Friendly</h3>
+                        <p data-en="Bring your furry companions along for the adventure" data-es="Trae a tus compañeros peludos para la aventura">Bring your furry companions along for the adventure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodations Section -->
+    <section id="accommodations" class="accommodations">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Accommodations" data-es="Alojamiento">Accommodations</h2>
+                <p data-en="Comfortable rooms for every type of traveler" data-es="Habitaciones cómodas para todo tipo de viajero">Comfortable rooms for every type of traveler</p>
+            </div>
+            <div class="rooms-grid">
+                <!-- Private Rooms -->
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="images/1 bedroom (main).jpg" alt="Standard Single Private Ensuite Room">
+                    </div>
+                    <div class="room-content">
+                        <h3 data-en="Standard Single Private Ensuite" data-es="Habitación Individual Privada con Baño">Standard Single Private Ensuite</h3>
+                        <div class="room-details">
+                            <p><i class="fas fa-user"></i> <span data-en="Sleeps 1" data-es="Para 1 persona">Sleeps 1</span></p>
+                            <p><i class="fas fa-bath"></i> <span data-en="Private Ensuite" data-es="Baño Privado">Private Ensuite</span></p>
+                            <p><i class="fas fa-coffee"></i> <span data-en="Breakfast Included" data-es="Desayuno Incluido">Breakfast Included</span></p>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">BOB 74.35</span>
+                            <span class="tax-note" data-en="(tax included)" data-es="(impuestos incluidos)">(tax included)</span>
+                        </div>
+                        <a href="https://wa.me/59177520065?text=Hello!%20I%27d%20like%20to%20book%20a%20Standard%20Single%20Private%20Ensuite%20room%20at%20Solstice%20Hostel" target="_blank" class="book-btn" data-en="Book Now" data-es="Reservar Ahora">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="images/2 beds .jpeg" alt="Standard Double Bed Private Ensuite Room">
+                    </div>
+                    <div class="room-content">
+                        <h3 data-en="Standard Double Bed Private Ensuite" data-es="Habitación Doble Privada con Baño">Standard Double Bed Private Ensuite</h3>
+                        <div class="room-details">
+                            <p><i class="fas fa-users"></i> <span data-en="Sleeps 2" data-es="Para 2 personas">Sleeps 2</span></p>
+                            <p><i class="fas fa-bath"></i> <span data-en="Private Ensuite" data-es="Baño Privado">Private Ensuite</span></p>
+                            <p><i class="fas fa-coffee"></i> <span data-en="Breakfast Included" data-es="Desayuno Incluido">Breakfast Included</span></p>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">BOB 108.55</span>
+                            <span class="tax-note" data-en="(tax included)" data-es="(impuestos incluidos)">(tax included)</span>
+                        </div>
+                        <a href="https://wa.me/59177520065?text=Hello!%20I%27d%20like%20to%20book%20a%20Standard%20Double%20Bed%20Private%20Ensuite%20room%20at%20Solstice%20Hostel" target="_blank" class="book-btn" data-en="Book Now" data-es="Reservar Ahora">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="images/Standard Twin Room.jpeg" alt="Standard Twin Room Private Ensuite">
+                    </div>
+                    <div class="room-content">
+                        <h3 data-en="Standard Twin Room Private Ensuite" data-es="Habitación Twin Privada con Baño">Standard Twin Room Private Ensuite</h3>
+                        <div class="room-details">
+                            <p><i class="fas fa-users"></i> <span data-en="Sleeps 2" data-es="Para 2 personas">Sleeps 2</span></p>
+                            <p><i class="fas fa-bath"></i> <span data-en="Private Ensuite" data-es="Baño Privado">Private Ensuite</span></p>
+                            <p><i class="fas fa-coffee"></i> <span data-en="Breakfast Included" data-es="Desayuno Incluido">Breakfast Included</span></p>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">BOB 108.55</span>
+                            <span class="tax-note" data-en="(tax included)" data-es="(impuestos incluidos)">(tax included)</span>
+                        </div>
+                        <a href="https://wa.me/59177520065?text=Hello!%20I%27d%20like%20to%20book%20a%20Standard%20Twin%20Room%20Private%20Ensuite%20at%20Solstice%20Hostel" target="_blank" class="book-btn" data-en="Book Now" data-es="Reservar Ahora">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- Dorm Beds -->
+                <div class="room-card dorm-card">
+                    <div class="room-image">
+                        <img src="images/Mixed Dorm Rooms.jpeg" alt="Standard 4 Bed Mixed Dorm Ensuite">
+                    </div>
+                    <div class="room-content">
+                        <h3 data-en="Standard 4 Bed Mixed Dorm Ensuite" data-es="Dormitorio Mixto de 4 Camas con Baño">Standard 4 Bed Mixed Dorm Ensuite</h3>
+                        <div class="room-details">
+                            <p><i class="fas fa-users"></i> <span data-en="Sleeps 4" data-es="Para 4 personas">Sleeps 4</span></p>
+                            <p><i class="fas fa-bath"></i> <span data-en="Shared Ensuite" data-es="Baño Compartido">Shared Ensuite</span></p>
+                            <p><i class="fas fa-users-between-lines"></i> <span data-en="Mixed Dorm" data-es="Dormitorio Mixto">Mixed Dorm</span></p>
+                        </div>
+                        <div class="room-price">
+                            <span class="price">BOB 48.25</span>
+                            <span class="tax-note" data-en="(tax included)" data-es="(impuestos incluidos)">(tax included)</span>
+                        </div>
+                        <a href="https://wa.me/59177520065?text=Hello!%20I%27d%20like%20to%20book%20a%20bed%20in%20the%20Standard%204%20Bed%20Mixed%20Dorm%20Ensuite%20at%20Solstice%20Hostel" target="_blank" class="book-btn" data-en="Book Now" data-es="Reservar Ahora">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breakfast Section -->
+    <section id="breakfast" class="breakfast">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Breakfast Options" data-es="Opciones de Desayuno">Breakfast Options</h2>
+                <p data-en="Start your day right with our delicious breakfast selection" data-es="Comienza tu día con nuestra deliciosa selección de desayunos">Start your day right with our delicious breakfast selection</p>
+            </div>
+            <div class="breakfast-content">
+                <div class="breakfast-text">
+                    <h3 data-en="Included with Your Stay" data-es="Incluido con tu Estadía">Included with Your Stay</h3>
+                    <p data-en="Wake up to a hearty breakfast that will fuel your adventures around Lake Titicaca. Our breakfast menu features a variety of local and international options to satisfy every palate." data-es="Despierta con un desayuno abundante que alimentará tus aventuras alrededor del Lago Titicaca. Nuestro menú de desayuno incluye una variedad de opciones locales e internacionales para satisfacer todos los gustos.">Wake up to a hearty breakfast that will fuel your adventures around Lake Titicaca. Our breakfast menu features a variety of local and international options to satisfy every palate.</p>
+                    <ul>
+                        <li data-en="Fresh local fruits and juices" data-es="Frutas locales frescas y jugos">Fresh local fruits and juices</li>
+                        <li data-en="Traditional Bolivian breakfast items" data-es="Elementos tradicionales del desayuno boliviano">Traditional Bolivian breakfast items</li>
+                        <li data-en="Continental breakfast options" data-es="Opciones de desayuno continental">Continental breakfast options</li>
+                        <li data-en="Coffee, tea, and hot beverages" data-es="Café, té y bebidas calientes">Coffee, tea, and hot beverages</li>
+                        <li data-en="Vegetarian and dietary options available" data-es="Opciones vegetarianas y dietéticas disponibles">Vegetarian and dietary options available</li>
+                    </ul>
+                    <p class="breakfast-note"><em data-en="Served daily from 8:00 AM to 10:00 AM in our sunny dining area" data-es="Servido diariamente de 8:00 AM a 10:00 AM en nuestro soleado comedor">Served daily from 8:00 AM to 10:00 AM in our sunny dining area</em></p>
+                </div>
+                <div class="breakfast-image">
+                    <div class="breakfast-gallery">
+                        <div class="breakfast-container">
+                            <img src="images/Breakfast 1.jpg" alt="Fresh breakfast spread" class="breakfast-slide active">
+                            <img src="images/_DSC8267.jpg" alt="Traditional breakfast items" class="breakfast-slide">
+                            <img src="images/_DSC8279.jpg" alt="Fresh fruits and juice" class="breakfast-slide">
+                            <img src="images/_DSC8295.jpg" alt="Continental breakfast options" class="breakfast-slide">
+                            <img src="images/_DSC8270.jpg" alt="Breakfast beverages" class="breakfast-slide">
+                            <div class="breakfast-dots">
+                                <span class="breakfast-dot active" data-slide="0"></span>
+                                <span class="breakfast-dot" data-slide="1"></span>
+                                <span class="breakfast-dot" data-slide="2"></span>
+                                <span class="breakfast-dot" data-slide="3"></span>
+                                <span class="breakfast-dot" data-slide="4"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Amenities & Facilities" data-es="Servicios e Instalaciones">Amenities & Facilities</h2>
+                <p data-en="Everything you need for a comfortable and fun stay" data-es="Todo lo que necesitas para una estadía cómoda y divertida">Everything you need for a comfortable and fun stay</p>
+            </div>
+            
+            <!-- Games & Entertainment -->
+            <div class="amenities-category">
+                <h3 data-en="Games & Entertainment" data-es="Juegos y Entretenimiento">Games & Entertainment</h3>
+                <div class="amenities-grid">
+                    <div class="amenity-item">
+                        <i class="fas fa-gamepad"></i>
+                        <h4 data-en="Game Room" data-es="Sala de Juegos">Game Room</h4>
+                        <p data-en="Dedicated space for gaming and entertainment" data-es="Espacio dedicado para juegos y entretenimiento">Dedicated space for gaming and entertainment</p>
+                    </div>
+                    <div class="amenity-item">
+                        <i class="fas fa-tv"></i>
+                        <h4 data-en="TV Room" data-es="Sala de TV">TV Room</h4>
+                        <p data-en="Relax and watch movies or shows" data-es="Relájate y mira películas o programas">Relax and watch movies or shows</p>
+                    </div>
+                    <div class="amenity-item">
+                        <i class="fas fa-circle"></i>
+                        <h4 data-en="Pool Table" data-es="Mesa de Billar">Pool Table</h4>
+                        <p data-en="Challenge fellow travelers to a game" data-es="Desafía a otros viajeros a un juego">Challenge fellow travelers to a game</p>
+                    </div>
+                    <div class="amenity-item">
+                        <i class="fas fa-futbol"></i>
+                        <h4 data-en="Foosball Table" data-es="Mesa de Futbolín">Foosball Table</h4>
+                        <p data-en="Fast-paced table football fun" data-es="Diversión rápida de fútbol de mesa">Fast-paced table football fun</p>
+                    </div>
+                    <div class="amenity-item">
+                        <i class="fas fa-table-tennis-paddle-ball"></i>
+                        <h4 data-en="Table Tennis" data-es="Tenis de Mesa">Table Tennis</h4>
+                        <p data-en="Perfect for friendly competitions" data-es="Perfecto para competencias amistosas">Perfect for friendly competitions</p>
+                    </div>
+                    <div class="amenity-item">
+                        <i class="fas fa-chess"></i>
+                        <h4 data-en="Board Games" data-es="Juegos de Mesa">Board Games</h4>
+                        <p data-en="Classic games for rainy days" data-es="Juegos clásicos para días lluviosos">Classic games for rainy days</p>
+                    </div>
+                    <div class="amenity-item">
+                        <i class="fas fa-book"></i>
+                        <h4 data-en="Book Exchange" data-es="Intercambio de Libros">Book Exchange</h4>
+                        <p data-en="Share and discover new reads" data-es="Comparte y descubre nuevas lecturas">Share and discover new reads</p>
+                    </div>
+                    <div class="amenity-item">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h4 data-en="Tours/Travel Desk" data-es="Mesa de Tours/Viajes">Tours/Travel Desk</h4>
+                        <p data-en="Get help planning your local adventures" data-es="Obtén ayuda planificando tus aventuras locales">Get help planning your local adventures</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Amenities Gallery -->
+            <div class="amenities-category">
+                <h3 data-en="See Our Facilities in Action" data-es="Ve Nuestras Instalaciones en Acción">See Our Facilities in Action</h3>
+                <div class="amenities-gallery">
+                    <div class="amenities-container">
+                        <img src="images/DSC_0986.JPG" alt="Pool table and game room with Simpsons mural" class="amenities-slide active">
+                        <img src="images/_DSC7936.jpg" alt="Common area and social space" class="amenities-slide">
+                        <img src="images/Table Tennis.jpg" alt="Table tennis setup" class="amenities-slide">
+                        <img src="images/DSC_0964.JPG" alt="Card games and social activities" class="amenities-slide">
+                        <img src="images/_DSC8011.jpg" alt="Gaming area and entertainment" class="amenities-slide">
+                        <img src="images/Main photo.jpg" alt="Hostel exterior with clear view" class="amenities-slide">
+                        <div class="amenities-dots">
+                            <span class="amenities-dot active" data-slide="0"></span>
+                            <span class="amenities-dot" data-slide="1"></span>
+                            <span class="amenities-dot" data-slide="2"></span>
+                            <span class="amenities-dot" data-slide="3"></span>
+                            <span class="amenities-dot" data-slide="4"></span>
+                            <span class="amenities-dot" data-slide="5"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Areas -->
+            <div class="amenities-category">
+                <h3 data-en="Social Areas" data-es="Áreas Sociales">Social Areas</h3>
+                <div class="social-areas-grid">
+                    <div class="social-area">
+                        <i class="fas fa-couch"></i>
+                        <h4 data-en="Common Room" data-es="Sala Común">Common Room</h4>
+                        <p data-en="Central gathering space for all guests" data-es="Espacio central de reunión para todos los huéspedes">Central gathering space for all guests</p>
+                    </div>
+                    <div class="social-area">
+                        <i class="fas fa-users"></i>
+                        <h4 data-en="Lounge Room" data-es="Sala de Estar">Lounge Room</h4>
+                        <p data-en="Comfortable seating for relaxation" data-es="Asientos cómodos para relajarse">Comfortable seating for relaxation</p>
+                    </div>
+                    <div class="social-area">
+                        <i class="fas fa-building"></i>
+                        <h4 data-en="Social Balcony" data-es="Balcón Social">Social Balcony</h4>
+                        <p data-en="Outdoor space with beautiful views" data-es="Espacio al aire libre con hermosas vistas">Outdoor space with beautiful views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Local Attractions Section -->
+    <section id="attractions" class="attractions">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Local Attractions" data-es="Atracciones Locales">Local Attractions</h2>
+                <p data-en="Discover the wonders of Copacabana and Lake Titicaca" data-es="Descubre las maravillas de Copacabana y el Lago Titicaca">Discover the wonders of Copacabana and Lake Titicaca</p>
+            </div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <i class="fas fa-church"></i>
+                    <h3 data-en="Copacabana Cathedral" data-es="Catedral de Copacabana">Copacabana Cathedral</h3>
+                    <p class="distance" data-en="5 minutes walk" data-es="5 minutos caminando">5 minutes walk</p>
+                    <p data-en="Visit the famous basilica and see the Virgin of Copacabana" data-es="Visita la famosa basílica y ve a la Virgen de Copacabana">Visit the famous basilica and see the Virgin of Copacabana</p>
+                </div>
+                <div class="attraction-card">
+                    <i class="fas fa-water"></i>
+                    <h3 data-en="Lake Titicaca Shore" data-es="Orilla del Lago Titicaca">Lake Titicaca Shore</h3>
+                    <p class="distance" data-en="2 minutes walk" data-es="2 minutos caminando">2 minutes walk</p>
+                    <p data-en="Stroll along the shores of the world's highest navigable lake" data-es="Pasea por las orillas del lago navegable más alto del mundo">Stroll along the shores of the world's highest navigable lake</p>
+                </div>
+                <div class="attraction-card">
+                    <i class="fas fa-island-tropical"></i>
+                    <h3 data-en="Isla del Sol" data-es="Isla del Sol">Isla del Sol</h3>
+                    <p class="distance" data-en="1 hour boat ride" data-es="1 hora en bote">1 hour boat ride</p>
+                    <p data-en="Sacred island of the Incas with ancient ruins and stunning views" data-es="Isla sagrada de los Incas con ruinas antiguas y vistas espectaculares">Sacred island of the Incas with ancient ruins and stunning views</p>
+                </div>
+                <div class="attraction-card">
+                    <i class="fas fa-mountain"></i>
+                    <h3 data-en="Cerro Calvario" data-es="Cerro Calvario">Cerro Calvario</h3>
+                    <p class="distance" data-en="15 minutes hike" data-es="15 minutos de caminata">15 minutes hike</p>
+                    <p data-en="Climb to the top for panoramic views of the town and lake" data-es="Sube a la cima para vistas panorámicas del pueblo y el lago">Climb to the top for panoramic views of the town and lake</p>
+                </div>
+                <div class="attraction-card">
+                    <i class="fas fa-store"></i>
+                    <h3 data-en="Local Markets" data-es="Mercados Locales">Local Markets</h3>
+                    <p class="distance" data-en="3 minutes walk" data-es="3 minutos caminando">3 minutes walk</p>
+                    <p data-en="Browse local crafts, textiles, and fresh produce" data-es="Explora artesanías locales, textiles y productos frescos">Browse local crafts, textiles, and fresh produce</p>
+                </div>
+                <div class="attraction-card">
+                    <i class="fas fa-ship"></i>
+                    <h3 data-en="Boat Tours" data-es="Tours en Bote">Boat Tours</h3>
+                    <p class="distance" data-en="At the harbor - 5 minutes walk" data-es="En el puerto - 5 minutos caminando">At the harbor - 5 minutes walk</p>
+                    <p data-en="Day trips to islands and floating reed villages" data-es="Excursiones de día a islas y pueblos flotantes de totora">Day trips to islands and floating reed villages</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Contact Us" data-es="Contáctanos">Contact Us</h2>
+                <p data-en="Get in touch for reservations and inquiries" data-es="Ponte en contacto para reservas y consultas">Get in touch for reservations and inquiries</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4 data-en="Address" data-es="Dirección">Address</h4>
+                                <p data-en="Av. Miguel Ahern s/n, Copacabana, Bolivia" data-es="Av. Miguel Ahern s/n, Copacabana, Bolivia">Av. Miguel Ahern s/n, Copacabana, Bolivia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4 data-en="Phone" data-es="Teléfono">Phone</h4>
+                                <p>+591 77520065</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4 data-en="Email" data-es="Correo">Email</h4>
+                                <p>info@solsticehostel.bo</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4 data-en="Reception Hours" data-es="Horario de Recepción">Reception Hours</h4>
+                                <p data-en="24/7 Available" data-es="Disponible 24/7">24/7 Available</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-info">
+                        <h3 data-en="Ready to Book?" data-es="¿Listo para Reservar?">Ready to Book?</h3>
+                        <p data-en="Reserve your stay at Solstice Hostel through our booking platform for the best rates and instant confirmation." data-es="Reserva tu estadía en Solstice Hostel a través de nuestra plataforma de reservas para las mejores tarifas y confirmación instantánea.">Reserve your stay at Solstice Hostel through our booking platform for the best rates and instant confirmation.</p>
+                        <a href="https://wa.me/59177520065?text=Hello!%20I%27d%20like%20to%20make%20a%20reservation%20at%20Solstice%20Hostel.%20Could%20you%20please%20help%20me%20with%20availability%20and%20booking?" target="_blank" class="booking-link">
+                            <i class="fab fa-whatsapp"></i>
+                            <span data-en="Book via WhatsApp" data-es="Reservar por WhatsApp">Book via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-right">
+                    <!-- Google Map -->
+                    <div class="map-container">
+                        <h3 data-en="Find Us on the Map" data-es="Encuéntranos en el Mapa">Find Us on the Map</h3>
+                        <div class="google-map">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d961.9558643717806!2d-69.08649673042088!3d-16.167794498406147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f206173eb1c45%3A0x8d13b8b1c2e8f4a6!2sCalle%20Miguel%20Ahern%2C%20Copacabana%2C%20Bolivia!5e0!3m2!1sen!2sus!4v1642012345678!5m2!1sen!2sus"
+                                width="100%" 
+                                height="350" 
+                                style="border:0; border-radius: 12px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                    
+                    <div class="transport-info">
+                        <h3 data-en="Getting Here" data-es="Cómo Llegar">Getting Here</h3>
+                        <div class="transport-item">
+                            <i class="fas fa-bus"></i>
+                            <div>
+                                <h4 data-en="From La Paz" data-es="Desde La Paz">From La Paz</h4>
+                                <p data-en="Direct bus service available (3-4 hours)" data-es="Servicio directo de autobús disponible (3-4 horas)">Direct bus service available (3-4 hours)</p>
+                            </div>
+                        </div>
+                        <div class="transport-item">
+                            <i class="fas fa-walking"></i>
+                            <div>
+                                <h4 data-en="From Bus Terminal" data-es="Desde la Terminal">From Bus Terminal</h4>
+                                <p data-en="5-minute walk to hostel" data-es="Caminata de 5 minutos al hostal">5-minute walk to hostel</p>
+                            </div>
+                        </div>
+                        <div class="transport-item">
+                            <i class="fas fa-ship"></i>
+                            <div>
+                                <h4 data-en="Boat Tours" data-es="Tours en Bote">Boat Tours</h4>
+                                <p data-en="Harbor is just 5 minutes away" data-es="El puerto está a solo 5 minutos">Harbor is just 5 minutes away</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-tagline">
+                    <p class="main-tagline" data-en="Your sunny home in Copacabana, Bolivia" data-es="Tu hogar soleado en Copacabana, Bolivia">Your sunny home in Copacabana, Bolivia</p>
+                    <p class="sub-tagline" data-en="Where adventure meets comfort on the shores of Lake Titicaca" data-es="Donde la aventura se encuentra con la comodidad a orillas del Lago Titicaca">Where adventure meets comfort on the shores of Lake Titicaca</p>
+                    <div class="location-highlights">
+                        <span class="highlight"><i class="fas fa-sun"></i> <span data-en="Endless sunshine" data-es="Sol infinito">Endless sunshine</span></span>
+                        <span class="highlight"><i class="fas fa-mountain"></i> <span data-en="Stunning lake views" data-es="Vistas espectaculares del lago">Stunning lake views</span></span>
+                        <span class="highlight"><i class="fas fa-heart"></i> <span data-en="Warm hospitality" data-es="Hospitalidad cálida">Warm hospitality</span></span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 data-en="Quick Links" data-es="Enlaces Rápidos">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-es="Inicio">Home</a></li>
+                        <li><a href="#accommodations" data-en="Accommodations" data-es="Alojamiento">Accommodations</a></li>
+                        <li><a href="#amenities" data-en="Amenities" data-es="Servicios">Amenities</a></li>
+                        <li><a href="#contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4 data-en="Follow Us" data-es="Síguenos">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/solsticiohostel" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/solsticiohostel/?hl=en" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/59177520065" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="images/Mesa de trabajo 2LOGO.png" alt="Solstice Hostel Logo">
+                </div>
+                <p data-en="&copy; 2025 Solstice Hostel. All rights reserved." data-es="&copy; 2025 Solstice Hostel. Todos los derechos reservados.">&copy; 2025 Solstice Hostel. All rights reserved.</p>
+                <p class="footer-motto" data-en="Creating unforgettable memories in the heart of Bolivia ☀️" data-es="Creando recuerdos inolvidables en el corazón de Bolivia ☀️">Creating unforgettable memories in the heart of Bolivia ☀️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img class="modal-image" id="modalImage" src="" alt="">
+            <div class="modal-nav">
+                <button class="prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="modal-counter" id="modalCounter"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
